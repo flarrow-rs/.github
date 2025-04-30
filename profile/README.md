@@ -15,10 +15,4 @@ It's split into multiple main modules:
 By nature a `runtime` can be pluggable, meaning that it can be easily extended to support new features or integrate with other systems. Here are the
 official plugins:
 
-- [`flarrow-url-file`](): Provides a **URL** plugin that will parse correctly the URL: `file://`.
-
-- [`flarrow-node-python`](): Provides a Python **node** API and a Python node implementation.
-- [`flarrow-ext-python`](): Provides a Python **extension** plugin that will parse correctly the extension `.py`.
-
-- [`flarrow-node-zenoh`](): Provides a Zenoh **node** implementation.
-- [`flarrow-runtime-zenoh`](): Provides a Zenoh **runtime** plugin that will expose all nodes of a runtime to the Zenoh network.
+- [`flarrow-python`](https://github.com/flarrow-rs/flarrow-python): Provides a Python **node** API and a `.py` **FileExtPlugin** for the runtime.
